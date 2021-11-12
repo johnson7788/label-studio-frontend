@@ -48,7 +48,6 @@
     "mobx-state-tree": "^3.16.0",
     "nanoid": "^2.1.11",
     "node-fetch": "^2.6.1",
-    "node-sass": "^4.14.1",
     "pleasejs": "^0.4.2",
     "prettier": "^1.19.1",
     "puppeteer": "^3.3.0",
@@ -58,7 +57,7 @@
     "react-dropdown-tree-select": "^2.4.1",
     "react-konva": "^16.8.7-0",
     "react-rating": "^1.6.2",
-    "react-scripts": "^3.4.3",
+    "react-scripts": "4.0.3",
     "react-sortable-hoc": "^1.11.0",
     "react-test-renderer": "^16.13.1",
     "size-limit": "^4.6.0",
@@ -137,8 +136,12 @@
   "dependencies": {
     "@thi.ng/rle-pack": "^2.1.6",
     "babel-preset-react-app": "^9.1.1",
+    "css-loader": "^6.5.1",
     "d3": "^5.16.0",
-    "magic-wand-js": "^1.0.0"
+    "magic-wand-js": "^1.0.0",
+    "node-sass": "^6.0.1",
+    "react-script": "^2.0.5",
+    "sass-loader": "^12.3.0"
   },
   "nohoist": [
     "**/babel-preset-react-app/@babel/runtime"
