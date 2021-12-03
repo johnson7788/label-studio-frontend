@@ -84,6 +84,7 @@
     "prettier": "prettier --write src/**/*.js",
     "size": "npm run build && size-limit",
     "start": "npm run copy-examples && react-app-rewired start",
+    "dev": "react-app-rewired start",
     "test:e2e": "cd e2e && npx codeceptjs run --steps",
     "test:e2e:headless": "cd e2e && HEADLESS=true npx codeceptjs run --steps",
     "test:coverage": "npm test -- --coverage",

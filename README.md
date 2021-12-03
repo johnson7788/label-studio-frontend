@@ -109,13 +109,13 @@ import 'label-studio/build/static/css/main.css';
    npm run start
    ```
 
-4. Check different ways to initiate the development server config & task data in `src/env/development.js`, changing the `data` variable is a good place to start.
+4. 修改内容 `src/env/development.js` 中的const data = References， 改变要启动的测试的标注数据, 即data变量
 
-5. After you make changes and ready to use it in production, you need to create a production build
+5. 如果一切ok，可以build 生产环境
    ```bash
    npm run build-bundle
    ```
-   Now you have one .js file and one .css file in the `build/static/` directory
+   build完成的js和css文件在`build/static/`中, 替换文件到label-studio的项目的label-studio/label_studio/static/js/build/index.js文件夹中的map文件，css文件不用替换，不太一样
 
 ## Label Studio for Teams, Startups, and Enterprises :office:
 
