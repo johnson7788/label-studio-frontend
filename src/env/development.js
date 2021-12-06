@@ -5,7 +5,8 @@ import Messages from "../utils/messages";
  * Text
  */
 import { DialogueAnalysis } from "../examples/dialogue_analysis"; // eslint-disable-line no-unused-vars
-import { NamedEntity } from "../examples/named_entity"; // eslint-disable-line no-unused-vars
+// import { NamedEntity } from "../examples/named_entity"; // eslint-disable-line no-unused-vars
+import { NamedEntity } from "../examples/named_entity_relation"; // eslint-disable-line no-unused-vars
 import { References } from "../examples/references"; // eslint-disable-line no-unused-vars
 import { Required } from "../examples/required"; // eslint-disable-line no-unused-vars
 import { Sentiment } from "../examples/sentiment_analysis"; // eslint-disable-line no-unused-vars
